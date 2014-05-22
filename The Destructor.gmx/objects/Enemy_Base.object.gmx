@@ -30,7 +30,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object4">
+    <event eventtype="4" ename="obj_Melee">
       <action>
         <libid>1</libid>
         <id>711</id>
@@ -66,7 +66,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="object3">
+    <event eventtype="4" ename="obj_Ranged">
       <action>
         <libid>1</libid>
         <id>711</id>
@@ -102,7 +102,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="object2">
+    <event eventtype="4" ename="obj_Mount">
       <action>
         <libid>1</libid>
         <id>711</id>

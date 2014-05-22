@@ -23,20 +23,28 @@
   </paths>
   <objects name="objects">
     <object>objects\object0</object>
-    <object>objects\object5</object>
-    <object>objects\object9</object>
-    <object>objects\object1</object>
-    <object>objects\object2</object>
-    <object>objects\object4</object>
-    <object>objects\object3</object>
+    <object>objects\obj_EMount</object>
+    <object>objects\obj_EMelee</object>
+    <object>objects\obj_ERanged</object>
+    <object>objects\obj_Mount</object>
+    <object>objects\obj_Ranged</object>
+    <object>objects\obj_Melee</object>
     <object>objects\object7</object>
     <object>objects\Player_Base</object>
     <object>objects\Enemy_Base</object>
-    <object>objects\UI</object>
+    <object>objects\Main</object>
+    <object>objects\EnemyUnit</object>
+    <object>objects\Unit</object>
+    <object>objects\obj_Player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Starting_room</room>
   </rooms>
+  <constants number="3">
+    <constant name="MELEE_COST">50</constant>
+    <constant name="RANGED_COST">50</constant>
+    <constant name="FAST_COST">50</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
