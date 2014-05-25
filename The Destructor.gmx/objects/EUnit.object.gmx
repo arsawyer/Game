@@ -115,7 +115,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>P1Attack</object>
+            <object>P1AttackRanged</object>
           </argument>
           <argument>
             <kind>0</kind>
