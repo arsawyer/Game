@@ -13,10 +13,13 @@
     <sprite>sprites\Ranged_lvl1</sprite>
     <sprite>sprites\Warrior_lvl1</sprite>
     <sprite>sprites\Fast_lvl1</sprite>
-    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\Ground1</sprite>
     <sprite>sprites\castle</sprite>
-    <sprite>sprites\ArrowR</sprite>
+    <sprite>sprites\ArrowL</sprite>
     <sprite>sprites\GuiBack</sprite>
+    <sprite>sprites\WeakAttack</sprite>
+    <sprite>sprites\StrongAttack</sprite>
+    <sprite>sprites\FireR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

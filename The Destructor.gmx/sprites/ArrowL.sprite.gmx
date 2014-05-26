@@ -19,6 +19,6 @@
   <width>36</width>
   <height>147</height>
   <frames>
-    <frame index="0">images\ArrowR_0.png</frame>
+    <frame index="0">images\ArrowL_0.png</frame>
   </frames>
 </sprite>
