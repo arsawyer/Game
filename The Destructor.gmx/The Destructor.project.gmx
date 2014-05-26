@@ -8,7 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\blue_attack</sprite>
     <sprite>sprites\ERanged_lvl1</sprite>
-    <sprite>sprites\EWarrior_lvl1</sprite>
+    <sprite>sprites\EWarriorM_lvl1</sprite>
     <sprite>sprites\EFast_lvl1</sprite>
     <sprite>sprites\Ranged_lvl1</sprite>
     <sprite>sprites\Warrior_lvl1</sprite>
@@ -41,6 +41,9 @@
     <object>objects\EUnit</object>
     <object>objects\obj_Player</object>
     <object>objects\P1AttackRanged</object>
+    <object>objects\P2AttackRanged</object>
+    <object>objects\P1AttackM</object>
+    <object>objects\P2AttackM</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Starting_room</room>
