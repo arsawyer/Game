@@ -295,7 +295,7 @@
         <exetype>1</exetype>
         <functionname>action_if_empty</functionname>
         <codestring></codestring>
-        <whoName>Unit</whoName>
+        <whoName>self</whoName>
         <relative>-1</relative>
         <isnot>-1</isnot>
         <arguments>
