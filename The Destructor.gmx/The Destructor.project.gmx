@@ -4,22 +4,32 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprites name="Sprites_lvl1">
+      <sprite>sprites\ERanged_lvl1_M</sprite>
+      <sprite>sprites\ERanged_lvl1_Idle</sprite>
+      <sprite>sprites\EWarrior_lvl1_M</sprite>
+      <sprite>sprites\EWarrior_lvl1_Idle</sprite>
+      <sprite>sprites\EFast_lvl1_M</sprite>
+      <sprite>sprites\EFast_lvl1_Idle</sprite>
+      <sprite>sprites\Ranged_lvl1_M</sprite>
+      <sprite>sprites\Ranged_lvl1_Idle</sprite>
+      <sprite>sprites\Warrior_lvl1_M</sprite>
+      <sprite>sprites\Fast_lvl1_M</sprite>
+    </sprites>
+    <sprites name="Effects">
+      <sprite>sprites\StrongAttack</sprite>
+      <sprite>sprites\WeakAttack</sprite>
+      <sprite>sprites\FireR</sprite>
+      <sprite>sprites\ArrowL</sprite>
+    </sprites>
     <sprite>sprites\blue_attack</sprite>
-    <sprite>sprites\ERanged_lvl1</sprite>
-    <sprite>sprites\EWarriorM_lvl1</sprite>
-    <sprite>sprites\EFast_lvl1</sprite>
-    <sprite>sprites\Ranged_lvl1</sprite>
-    <sprite>sprites\Warrior_lvl1</sprite>
-    <sprite>sprites\Fast_lvl1</sprite>
     <sprite>sprites\Ground1</sprite>
     <sprite>sprites\castle</sprite>
-    <sprite>sprites\ArrowL</sprite>
     <sprite>sprites\GuiBack</sprite>
-    <sprite>sprites\WeakAttack</sprite>
-    <sprite>sprites\StrongAttack</sprite>
-    <sprite>sprites\FireR</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -30,23 +40,27 @@
   </paths>
   <objects name="objects">
     <object>objects\object0</object>
-    <object>objects\obj_EMount</object>
-    <object>objects\obj_EMelee</object>
-    <object>objects\obj_ERanged</object>
-    <object>objects\obj_Mount</object>
-    <object>objects\obj_Ranged</object>
-    <object>objects\obj_Melee</object>
-    <object>objects\object7</object>
-    <object>objects\Player_Base</object>
-    <object>objects\Enemy_Base</object>
-    <object>objects\Main</object>
-    <object>objects\Unit</object>
-    <object>objects\EUnit</object>
-    <object>objects\obj_Player</object>
-    <object>objects\P1AttackRanged</object>
-    <object>objects\P2AttackRanged</object>
-    <object>objects\P1AttackM</object>
-    <object>objects\P2AttackM</object>
+    <objects name="Units_lvl1">
+      <object>objects\obj_EMount</object>
+      <object>objects\obj_EMelee</object>
+      <object>objects\obj_ERanged</object>
+      <object>objects\obj_Mount</object>
+      <object>objects\obj_Ranged</object>
+      <object>objects\obj_Melee</object>
+      <object>objects\Player_Base</object>
+      <object>objects\Enemy_Base</object>
+    </objects>
+    <objects name="Core">
+      <object>objects\Main</object>
+      <object>objects\Unit</object>
+      <object>objects\EUnit</object>
+      <object>objects\object7</object>
+      <object>objects\P2AttackM</object>
+      <object>objects\P1AttackM</object>
+      <object>objects\P2AttackRanged</object>
+      <object>objects\P1AttackRanged</object>
+      <object>objects\obj_Player</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Starting_room</room>
