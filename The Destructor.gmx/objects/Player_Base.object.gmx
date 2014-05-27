@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_Player</parentName>
+  <parentName>Unit</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -150,7 +150,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_EMount">
+    <event eventtype="4" ename="obj_EFast">
       <action>
         <libid>1</libid>
         <id>711</id>

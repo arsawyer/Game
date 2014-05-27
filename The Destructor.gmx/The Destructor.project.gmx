@@ -5,7 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0</sound>
+    <sounds name="attack_sounds">
+      <sound>sound\Swing3</sound>
+      <sound>sound\SwordAttack</sound>
+      <sound>sound\AttackArrowHit</sound>
+      <sound>sound\FireAttack01</sound>
+      <sound>sound\Slap</sound>
+      <sound>sound\Slap2</sound>
+    </sounds>
+    <sounds name="creation_sounds">
+      <sound>sound\DragonSound</sound>
+    </sounds>
+    <sounds name="background_sounds">
+      <sound>sound\Boss01</sound>
+      <sound>sound\Boss02</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Sprites_lvl1">
@@ -18,7 +32,9 @@
       <sprite>sprites\Ranged_lvl1_M</sprite>
       <sprite>sprites\Ranged_lvl1_Idle</sprite>
       <sprite>sprites\Warrior_lvl1_M</sprite>
+      <sprite>sprites\Warrior_lvl1_Idle</sprite>
       <sprite>sprites\Fast_lvl1_M</sprite>
+      <sprite>sprites\Fast_lvl1_Idle</sprite>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\StrongAttack</sprite>
@@ -30,6 +46,8 @@
     <sprite>sprites\Ground1</sprite>
     <sprite>sprites\castle</sprite>
     <sprite>sprites\GuiBack</sprite>
+    <sprite>sprites\EDeath</sprite>
+    <sprite>sprites\PDeath</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -40,15 +58,15 @@
   </paths>
   <objects name="objects">
     <object>objects\object0</object>
+    <object>objects\Player_Base</object>
+    <object>objects\Enemy_Base</object>
     <objects name="Units_lvl1">
-      <object>objects\obj_EMount</object>
+      <object>objects\obj_EFast</object>
       <object>objects\obj_EMelee</object>
       <object>objects\obj_ERanged</object>
       <object>objects\obj_Mount</object>
       <object>objects\obj_Ranged</object>
       <object>objects\obj_Melee</object>
-      <object>objects\Player_Base</object>
-      <object>objects\Enemy_Base</object>
     </objects>
     <objects name="Core">
       <object>objects\Main</object>
@@ -56,12 +74,13 @@
       <object>objects\EUnit</object>
       <object>objects\object7</object>
       <object>objects\P2AttackM</object>
-      <object>objects\P1AttackM</object>
       <object>objects\P2AttackRanged</object>
+      <object>objects\P1AttackM</object>
       <object>objects\P1AttackRanged</object>
       <object>objects\obj_Player</object>
     </objects>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\Starting_room</room>
   </rooms>
