@@ -35,27 +35,43 @@
       <sprite>sprites\Warrior_lvl1_Idle</sprite>
       <sprite>sprites\Fast_lvl1_M</sprite>
       <sprite>sprites\Fast_lvl1_Idle</sprite>
+      <sprite>sprites\blue_attack</sprite>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\StrongAttack</sprite>
       <sprite>sprites\WeakAttack</sprite>
       <sprite>sprites\FireR</sprite>
       <sprite>sprites\ArrowL</sprite>
+      <sprite>sprites\EDeath</sprite>
+      <sprite>sprites\PDeath</sprite>
     </sprites>
-    <sprite>sprites\blue_attack</sprite>
-    <sprite>sprites\Ground1</sprite>
-    <sprite>sprites\castle</sprite>
-    <sprite>sprites\GuiBack</sprite>
-    <sprite>sprites\EDeath</sprite>
-    <sprite>sprites\PDeath</sprite>
+    <sprites name="UI">
+      <sprite>sprites\PUIBase</sprite>
+      <sprite>sprites\EUIBase</sprite>
+      <sprite>sprites\P1UIButtonDragon</sprite>
+      <sprite>sprites\P1UIButtonOrc</sprite>
+      <sprite>sprites\P1UIButtonWitch</sprite>
+      <sprite>sprites\P2UIButtonWarrior</sprite>
+      <sprite>sprites\P2UIButtonArcher</sprite>
+      <sprite>sprites\P2UIButtonThief</sprite>
+    </sprites>
+    <sprites name="General">
+      <sprite>sprites\Ground1</sprite>
+      <sprite>sprites\castle</sprite>
+      <sprite>sprites\Mouse</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Path_1</path>
     <path>paths\path2</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\Alagard_Basic</font>
+  </fonts>
   <objects name="objects">
     <object>objects\object0</object>
     <object>objects\Player_Base</object>
@@ -78,6 +94,17 @@
       <object>objects\P1AttackM</object>
       <object>objects\P1AttackRanged</object>
       <object>objects\obj_Player</object>
+      <object>objects\obj_Player2</object>
+    </objects>
+    <objects name="UI">
+      <object>objects\Player1_UI</object>
+      <object>objects\Player2_UI</object>
+      <object>objects\obj_DragonUIButton</object>
+      <object>objects\obj_WitchUIButton</object>
+      <object>objects\obj_OrcUIButton</object>
+      <object>objects\obj_HumanWarriorButton</object>
+      <object>objects\obj_HumanArcherButton</object>
+      <object>objects\obj_HumanThiefButton</object>
     </objects>
   </objects>
   <timelines name="timelines"/>
