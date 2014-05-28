@@ -261,7 +261,31 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Player_Base.Pmoney</string>
+            <string>Player1_UI.PSouls</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Player1_UI.Pmoney</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -282,32 +306,6 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-    </event>
-    <event eventtype="4" ename="P1AttackM">
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>-1</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>hp_current</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-30</string>
-          </argument>
-        </arguments>
       </action>
     </event>
     <event eventtype="4" ename="P1AttackRanged">
@@ -364,6 +362,32 @@
           <argument>
             <kind>0</kind>
             <string>image_index</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="P1AttackM">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp_current</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-30</string>
           </argument>
         </arguments>
       </action>

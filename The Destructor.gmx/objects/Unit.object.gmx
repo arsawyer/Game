@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_Player</parentName>
+  <parentName>Player1</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="4" ename="EUnit">
