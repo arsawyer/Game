@@ -39,7 +39,6 @@
       <sprite>sprites\Warrior_lvl1_Idle</sprite>
       <sprite>sprites\Fast_lvl1_M</sprite>
       <sprite>sprites\Fast_lvl1_Idle</sprite>
-      <sprite>sprites\blue_attack</sprite>
       <sprite>sprites\ECastle</sprite>
       <sprite>sprites\PMountain</sprite>
     </sprites>
@@ -69,6 +68,14 @@
       <sprite>sprites\StartGameButton1</sprite>
       <sprite>sprites\RestartButtonSprite</sprite>
     </sprites>
+    <sprites name="Sprites_lvl2">
+      <sprite>sprites\LichSprite_M</sprite>
+      <sprite>sprites\DemonRanged_M</sprite>
+      <sprite>sprites\DemonKnight_M</sprite>
+      <sprite>sprites\SoldierMelee_M</sprite>
+      <sprite>sprites\SoldierRanged_M</sprite>
+      <sprite>sprites\SoldierFast_M</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\PixelSky</background>
@@ -85,12 +92,12 @@
   </fonts>
   <objects name="objects">
     <objects name="Units_lvl1">
-      <object>objects\obj_EFast</object>
-      <object>objects\obj_EMelee</object>
-      <object>objects\obj_ERanged</object>
-      <object>objects\obj_Mount</object>
-      <object>objects\obj_Ranged</object>
-      <object>objects\obj_Melee</object>
+      <object>objects\obj_EFast_lvl1</object>
+      <object>objects\obj_ERanged_lvl1</object>
+      <object>objects\obj_EMelee_lvl1</object>
+      <object>objects\obj_Fast_lvl1</object>
+      <object>objects\obj_Ranged_lvl1</object>
+      <object>objects\obj_Melee_lvl1</object>
     </objects>
     <objects name="Core">
       <object>objects\Main</object>
@@ -115,20 +122,34 @@
       <object>objects\obj_HumanThiefButton</object>
     </objects>
     <objects name="General">
-      <object>objects\object0</object>
       <object>objects\Player_Base</object>
       <object>objects\Enemy_Base</object>
       <object>objects\VictoryPageObj</object>
       <object>objects\DefeatScreenObj</object>
       <object>objects\StartGameButton</object>
       <object>objects\RestartButton</object>
+      <object>objects\TutorialObj</object>
+    </objects>
+    <objects name="Units_lvl2">
+      <object>objects\obj_EFast_lvl2</object>
+      <object>objects\obj_ERanged_lvl2</object>
+      <object>objects\obj_EMelee_lvl2</object>
+      <object>objects\obj_Fast_lvl2</object>
+      <object>objects\obj_Ranged_lvl2</object>
+      <object>objects\obj_Melee_lvl2</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\Tutorial_timeline1</timeline>
+    <timeline>timelines\Tutorial_timeline2</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
     <room>rooms\Level_1</room>
     <room>rooms\VictoryScreen</room>
     <room>rooms\DefeatedRoom</room>
+    <room>rooms\Level_2</room>
+    <room>rooms\Tutorial</room>
   </rooms>
   <constants number="3">
     <constant name="MELEE_COST">50</constant>

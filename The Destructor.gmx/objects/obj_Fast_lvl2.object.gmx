@@ -285,7 +285,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Player2_UI.ESouls</string>
+            <string>Player2_UI.EHeros</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -399,7 +399,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-50</string>
+            <string>-40</string>
           </argument>
         </arguments>
       </action>
