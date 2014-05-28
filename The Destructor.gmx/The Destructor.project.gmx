@@ -19,8 +19,11 @@
     <sounds name="background_sounds">
       <sound>sound\Boss01</sound>
       <sound>sound\Boss02</sound>
+      <sound>sound\Theme</sound>
+      <sound>sound\Victory</sound>
+      <sound>sound\MenuButtonClicked</sound>
+      <sound>sound\Defeat</sound>
     </sounds>
-    <sound>sound\Victory</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Sprites_lvl1">
@@ -63,12 +66,15 @@
       <sprite>sprites\castle</sprite>
       <sprite>sprites\Mouse</sprite>
       <sprite>sprites\InvisibleCircle</sprite>
+      <sprite>sprites\StartGameButton1</sprite>
+      <sprite>sprites\RestartButtonSprite</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
-    <background>background\background1</background>
-    <background>background\background2</background>
+    <background>background\PixelSky</background>
+    <background>background\MeadowMountains</background>
+    <background>background\DarkCastle</background>
+    <background>background\CastleHall</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Path_1</path>
@@ -109,15 +115,20 @@
       <object>objects\obj_HumanThiefButton</object>
     </objects>
     <objects name="General">
-      <object>objects\obj_VictoryPage</object>
       <object>objects\object0</object>
       <object>objects\Player_Base</object>
       <object>objects\Enemy_Base</object>
+      <object>objects\VictoryPageObj</object>
+      <object>objects\DefeatScreenObj</object>
+      <object>objects\StartGameButton</object>
+      <object>objects\RestartButton</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Starting_room</room>
+    <room>rooms\StartScreen</room>
+    <room>rooms\Level_1</room>
     <room>rooms\VictoryScreen</room>
+    <room>rooms\DefeatedRoom</room>
   </rooms>
   <constants number="3">
     <constant name="MELEE_COST">50</constant>

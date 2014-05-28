@@ -105,7 +105,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>Player_Base.Pmoney</string>
+            <string>Player1_UI.Pmoney</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -175,7 +175,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Player_Base.Pmoney</string>
+            <string>Player1_UI.Pmoney</string>
           </argument>
           <argument>
             <kind>0</kind>
