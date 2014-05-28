@@ -242,7 +242,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="P1AttackRanged">
+    <event eventtype="4" ename="P1AttackRanged_lvl1">
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -268,7 +268,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="P1AttackM">
+    <event eventtype="4" ename="P1AttackM_lvl1">
       <action>
         <libid>1</libid>
         <id>611</id>

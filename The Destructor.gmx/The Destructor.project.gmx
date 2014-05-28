@@ -49,6 +49,10 @@
       <sprite>sprites\ArrowL</sprite>
       <sprite>sprites\EDeath</sprite>
       <sprite>sprites\PDeath</sprite>
+      <sprite>sprites\RangeAttacklvl2R</sprite>
+      <sprite>sprites\MeleeAttacklvl2R</sprite>
+      <sprite>sprites\MeleeAttacklvl2L</sprite>
+      <sprite>sprites\RangeAttacklvl2L</sprite>
     </sprites>
     <sprites name="UI">
       <sprite>sprites\PUIBase</sprite>
@@ -59,6 +63,12 @@
       <sprite>sprites\P2UIButtonWarrior</sprite>
       <sprite>sprites\P2UIButtonArcher</sprite>
       <sprite>sprites\P2UIButtonThief</sprite>
+      <sprite>sprites\LichUIButtonSprite</sprite>
+      <sprite>sprites\ImpUIButtonSprite</sprite>
+      <sprite>sprites\DarkKnightUIButtonSprite</sprite>
+      <sprite>sprites\SoldierMeleeUIButtonSprite</sprite>
+      <sprite>sprites\SoldierRangedUIButtonSprite</sprite>
+      <sprite>sprites\LancerUIButtonSprite</sprite>
     </sprites>
     <sprites name="General">
       <sprite>sprites\Ground1</sprite>
@@ -67,12 +77,14 @@
       <sprite>sprites\InvisibleCircle</sprite>
       <sprite>sprites\StartGameButton1</sprite>
       <sprite>sprites\RestartButtonSprite</sprite>
+      <sprite>sprites\UpgradeSprite</sprite>
     </sprites>
     <sprites name="Sprites_lvl2">
       <sprite>sprites\LichSprite_M</sprite>
-      <sprite>sprites\DemonRanged_M</sprite>
-      <sprite>sprites\DemonKnight_M</sprite>
+      <sprite>sprites\DemonFast_M</sprite>
+      <sprite>sprites\DemonKnightM</sprite>
       <sprite>sprites\SoldierMelee_M</sprite>
+      <sprite>sprites\SoldierMelee_Idle</sprite>
       <sprite>sprites\SoldierRanged_M</sprite>
       <sprite>sprites\SoldierFast_M</sprite>
     </sprites>
@@ -91,6 +103,33 @@
     <font>fonts\Alagard_Basic</font>
   </fonts>
   <objects name="objects">
+    <objects name="Core">
+      <object>objects\Main</object>
+      <object>objects\Unit</object>
+      <object>objects\EUnit</object>
+      <object>objects\object7</object>
+      <object>objects\P2AttackM_lvl1</object>
+      <object>objects\P2AttackRanged_lvl1</object>
+      <object>objects\P1AttackM_lvl1</object>
+      <object>objects\P1AttackRanged_lvl1</object>
+      <object>objects\P2_AttackM_lvl2</object>
+      <object>objects\P2AttackRanged_lvl2</object>
+      <object>objects\P1AttackM_lvl2</object>
+      <object>objects\P1_AttackRanged_lvl2</object>
+      <object>objects\IsAI</object>
+    </objects>
+    <objects name="UI">
+      <object>objects\Player1_UI</object>
+      <object>objects\Player2_UI</object>
+      <object>objects\obj_PFastUIButton</object>
+      <object>objects\obj_PRangedUIButton</object>
+      <object>objects\obj_PMeleeUIButton</object>
+      <object>objects\obj_EMeleeButton</object>
+      <object>objects\obj_ERangedButton</object>
+      <object>objects\obj_EFastButton</object>
+      <object>objects\PlayerUpgradeObj</object>
+      <object>objects\Player2UpgradeObj</object>
+    </objects>
     <objects name="Units_lvl1">
       <object>objects\obj_EFast_lvl1</object>
       <object>objects\obj_ERanged_lvl1</object>
@@ -99,27 +138,13 @@
       <object>objects\obj_Ranged_lvl1</object>
       <object>objects\obj_Melee_lvl1</object>
     </objects>
-    <objects name="Core">
-      <object>objects\Main</object>
-      <object>objects\Unit</object>
-      <object>objects\EUnit</object>
-      <object>objects\object7</object>
-      <object>objects\P2AttackM</object>
-      <object>objects\P2AttackRanged</object>
-      <object>objects\P1AttackM</object>
-      <object>objects\P1AttackRanged</object>
-      <object>objects\Player1</object>
-      <object>objects\Player2</object>
-    </objects>
-    <objects name="UI">
-      <object>objects\Player1_UI</object>
-      <object>objects\Player2_UI</object>
-      <object>objects\obj_DragonUIButton</object>
-      <object>objects\obj_WitchUIButton</object>
-      <object>objects\obj_OrcUIButton</object>
-      <object>objects\obj_HumanWarriorButton</object>
-      <object>objects\obj_HumanArcherButton</object>
-      <object>objects\obj_HumanThiefButton</object>
+    <objects name="Units_lvl2">
+      <object>objects\obj_EFast_lvl2</object>
+      <object>objects\obj_ERanged_lvl2</object>
+      <object>objects\obj_EMelee_lvl2</object>
+      <object>objects\obj_Fast_lvl2</object>
+      <object>objects\obj_Ranged_lvl2</object>
+      <object>objects\Melee_lvl2</object>
     </objects>
     <objects name="General">
       <object>objects\Player_Base</object>
@@ -130,14 +155,7 @@
       <object>objects\RestartButton</object>
       <object>objects\TutorialObj</object>
     </objects>
-    <objects name="Units_lvl2">
-      <object>objects\obj_EFast_lvl2</object>
-      <object>objects\obj_ERanged_lvl2</object>
-      <object>objects\obj_EMelee_lvl2</object>
-      <object>objects\obj_Fast_lvl2</object>
-      <object>objects\obj_Ranged_lvl2</object>
-      <object>objects\obj_Melee_lvl2</object>
-    </objects>
+    <object>objects\MeleeLvl2Obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Tutorial_timeline1</timeline>
@@ -146,16 +164,11 @@
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
     <room>rooms\Level_1</room>
+    <room>rooms\Level_2</room>
     <room>rooms\VictoryScreen</room>
     <room>rooms\DefeatedRoom</room>
-    <room>rooms\Level_2</room>
     <room>rooms\Tutorial</room>
   </rooms>
-  <constants number="3">
-    <constant name="MELEE_COST">50</constant>
-    <constant name="RANGED_COST">50</constant>
-    <constant name="FAST_COST">50</constant>
-  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

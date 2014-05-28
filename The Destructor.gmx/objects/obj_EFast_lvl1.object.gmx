@@ -308,7 +308,79 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="P1AttackRanged">
+    <event eventtype="4" ename="P1_AttackRanged_lvl2">
+      <action>
+        <libid>1</libid>
+        <id>405</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_dice</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp_current</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-100</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="P1AttackM_lvl2">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp_current</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-180</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="P1AttackRanged_lvl1">
       <action>
         <libid>1</libid>
         <id>405</id>
@@ -354,7 +426,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="P1AttackM">
+    <event eventtype="4" ename="P1AttackM_lvl1">
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -439,7 +511,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>P2AttackM</object>
+            <object>P2AttackM_lvl1</object>
           </argument>
           <argument>
             <kind>0</kind>

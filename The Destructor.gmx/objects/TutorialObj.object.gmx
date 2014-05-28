@@ -83,7 +83,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_Melee</object>
+            <object>obj_Melee_lvl1</object>
           </argument>
           <argument>
             <kind>0</kind>

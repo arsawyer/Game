@@ -74,7 +74,6 @@
     <instance objName="object7" x="736" y="512" name="inst_29A3A097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="32" y="352" name="inst_59683987" locked="0" code="" scaleX="2.03225803375244" scaleY="0" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="544" y="512" name="inst_8C48CB9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Player1" x="32" y="0" name="inst_37072718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="32" y="512" name="inst_76923919" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="832" y="576" name="inst_6F006058" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="640" y="512" name="inst_E3F3C49D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -90,15 +89,12 @@
     <instance objName="object7" x="512" y="640" name="inst_041F0D15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Player1_UI" x="0" y="0" name="inst_98969DF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Player2_UI" x="928" y="0" name="inst_7AC50D7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_DragonUIButton" x="160" y="32" name="inst_87168879" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HumanThiefButton" x="1408" y="32" name="inst_C88E155A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_WitchUIButton" x="96" y="32" name="inst_EEF6B606" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_OrcUIButton" x="32" y="32" name="inst_CD5B21B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HumanWarriorButton" x="1280" y="32" name="inst_FA4CCF19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HumanArcherButton" x="1344" y="32" name="inst_5A35F31F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Player1" x="0" y="0" name="inst_C40DE356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Player2" x="576" y="0" name="inst_D6D1C69B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Player2" x="512" y="0" name="inst_5C5C6D05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_PFastUIButton" x="160" y="32" name="inst_87168879" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_EFastButton" x="1408" y="32" name="inst_C88E155A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_PRangedUIButton" x="96" y="32" name="inst_EEF6B606" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_PMeleeUIButton" x="32" y="32" name="inst_CD5B21B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_EMeleeButton" x="1280" y="32" name="inst_FA4CCF19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ERangedButton" x="1344" y="32" name="inst_5A35F31F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="960" y="512" name="inst_6DA6C4C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="1024" y="544" name="inst_1E61AF44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="1056" y="512" name="inst_0060E3B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -138,6 +134,9 @@
     <instance objName="object7" x="256" y="768" name="inst_231A8CF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="96" y="736" name="inst_71720FE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object7" x="0" y="704" name="inst_CD4B51E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Player2UpgradeObj" x="1024" y="0" name="inst_19610D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PlayerUpgradeObj" x="288" y="0" name="inst_890FE034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="IsAI" x="544" y="0" name="inst_7830B5A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
