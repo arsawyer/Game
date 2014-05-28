@@ -155,7 +155,6 @@
       <object>objects\RestartButton</object>
       <object>objects\TutorialObj</object>
     </objects>
-    <object>objects\MeleeLvl2Obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Tutorial_timeline1</timeline>
