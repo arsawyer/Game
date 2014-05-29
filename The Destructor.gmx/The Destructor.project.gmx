@@ -91,6 +91,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\PixelSky</background>
+    <background>background\BlueGradient</background>
     <background>background\MeadowMountains</background>
     <background>background\DarkCastle</background>
     <background>background\CastleHall</background>

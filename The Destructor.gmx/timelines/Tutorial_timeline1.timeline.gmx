@@ -83,7 +83,7 @@
     </event>
   </entry>
   <entry>
-    <step>75</step>
+    <step>120</step>
     <event>
       <action>
         <libid>1</libid>
@@ -136,7 +136,7 @@
     </event>
   </entry>
   <entry>
-    <step>110</step>
+    <step>180</step>
     <event>
       <action>
         <libid>1</libid>
@@ -165,7 +165,7 @@
     </event>
   </entry>
   <entry>
-    <step>140</step>
+    <step>190</step>
     <event>
       <action>
         <libid>1</libid>
