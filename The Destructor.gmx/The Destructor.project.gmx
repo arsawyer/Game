@@ -39,9 +39,15 @@
       <sprite>sprites\Warrior_lvl1_Idle</sprite>
       <sprite>sprites\Fast_lvl1_M</sprite>
       <sprite>sprites\Fast_lvl1_Idle</sprite>
+<<<<<<< HEAD
       <sprite>sprites\ECastleL</sprite>
       <sprite>sprites\sprite52</sprite>
+=======
+      <sprite>sprites\ECastle</sprite>
+      <sprite>sprites\ECastleR</sprite>
+>>>>>>> 9b7a3447556802a946e64121b5d784315ccdb002
       <sprite>sprites\PMountain</sprite>
+      <sprite>sprites\PMountainL</sprite>
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\StrongAttack</sprite>
@@ -149,8 +155,10 @@
       <object>objects\Melee_lvl2</object>
     </objects>
     <objects name="General">
-      <object>objects\Player_Base</object>
-      <object>objects\Enemy_Base</object>
+      <object>objects\Player_BaseRO</object>
+      <object>objects\Player_BaseL</object>
+      <object>objects\Enemy_BaseLO</object>
+      <object>objects\Enemy_BaseR</object>
       <object>objects\VictoryPageObj</object>
       <object>objects\DefeatScreenObj</object>
       <object>objects\StartGameButton</object>
