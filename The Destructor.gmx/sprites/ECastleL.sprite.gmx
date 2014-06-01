@@ -19,6 +19,6 @@
   <width>512</width>
   <height>640</height>
   <frames>
-    <frame index="0">images\ECastle_0.png</frame>
+    <frame index="0">images\ECastleL_0.png</frame>
   </frames>
 </sprite>

@@ -39,7 +39,8 @@
       <sprite>sprites\Warrior_lvl1_Idle</sprite>
       <sprite>sprites\Fast_lvl1_M</sprite>
       <sprite>sprites\Fast_lvl1_Idle</sprite>
-      <sprite>sprites\ECastle</sprite>
+      <sprite>sprites\ECastleL</sprite>
+      <sprite>sprites\sprite52</sprite>
       <sprite>sprites\PMountain</sprite>
     </sprites>
     <sprites name="Effects">
