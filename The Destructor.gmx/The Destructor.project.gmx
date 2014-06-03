@@ -65,11 +65,11 @@
       <sprite>sprites\ArrowR</sprite>
       <sprite>sprites\EDeath</sprite>
       <sprite>sprites\PDeath</sprite>
-      <sprite>sprites\RangeAttacklvl2R</sprite>
+      <sprite>sprites\LichR</sprite>
       <sprite>sprites\LichL</sprite>
       <sprite>sprites\MeleeAttacklvl2R</sprite>
       <sprite>sprites\MeleeAttacklvl2L</sprite>
-      <sprite>sprites\RangeAttacklvl2L</sprite>
+      <sprite>sprites\BulletL</sprite>
       <sprite>sprites\BulletR</sprite>
     </sprites>
     <sprites name="UI">
@@ -113,6 +113,7 @@
       <sprite>sprites\SoldierFast_ML</sprite>
       <sprite>sprites\SoldierFast_MR</sprite>
     </sprites>
+    <sprite>sprites\PauseText</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\PixelSky</background>
@@ -120,6 +121,8 @@
     <background>background\MeadowMountains</background>
     <background>background\DarkCastle</background>
     <background>background\CastleHall</background>
+    <background>background\Woods</background>
+    <background>background\WoodPause</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Path_1</path>
@@ -135,13 +138,17 @@
       <object>objects\EUnit</object>
       <object>objects\object7</object>
       <object>objects\P2AttackM_lvl1</object>
-      <object>objects\P2AttackRanged_lvl1</object>
+      <object>objects\ArrowRangedL</object>
+      <object>objects\ArrowRangedR</object>
       <object>objects\P1AttackM_lvl1</object>
-      <object>objects\P1AttackRanged_lvl1</object>
+      <object>objects\FireRangedR</object>
+      <object>objects\FireRangedL</object>
       <object>objects\P2_AttackM_lvl2</object>
-      <object>objects\P2AttackRanged_lvl2</object>
+      <object>objects\BulletRangedL</object>
+      <object>objects\BulletRangedR</object>
       <object>objects\P1AttackM_lvl2</object>
-      <object>objects\P1_AttackRanged_lvl2</object>
+      <object>objects\LichRangedR</object>
+      <object>objects\LichRangedL</object>
       <object>objects\IsAI</object>
     </objects>
     <objects name="UI">
@@ -180,6 +187,7 @@
       <object>objects\StartGameButton</object>
       <object>objects\RestartButton</object>
       <object>objects\TutorialObj</object>
+      <object>objects\object42</object>
     </objects>
   </objects>
   <timelines name="timelines">
@@ -193,7 +201,7 @@
     <room>rooms\VictoryScreen</room>
     <room>rooms\DefeatedRoom</room>
     <room>rooms\Tutorial</room>
-    <room>rooms\room6</room>
+    <room>rooms\Pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

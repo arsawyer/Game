@@ -395,7 +395,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>P1AttackRanged_lvl1</object>
+            <object>FireRangedR</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -478,7 +478,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="P2AttackRanged_lvl2">
+    <event eventtype="4" ename="BulletRangedL">
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -530,7 +530,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="P2AttackRanged_lvl1">
+    <event eventtype="4" ename="ArrowRangedL">
       <action>
         <libid>1</libid>
         <id>611</id>
@@ -641,7 +641,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>P1AttackRanged_lvl1</object>
+            <object>FireRangedR</object>
           </argument>
           <argument>
             <kind>0</kind>
