@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>100</depth>
   <persistent>0</persistent>
-  <parentName>Main</parentName>
+  <parentName>self</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="6" enumb="7">
@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>UnitCool1</string>
+            <string>Main.UnitCool1</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>90</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -189,30 +189,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>15</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -227,11 +203,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>UnitCool1</string>
+            <string>Main.UnitCool1</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -401,30 +377,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>15</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -439,11 +391,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>UnitCool1</string>
+            <string>Main.UnitCool1</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1</string>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
