@@ -138,6 +138,8 @@
     <instance objName="Player2UpgradeObj" x="1024" y="0" name="inst_19610D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="PlayerUpgradeObj" x="288" y="0" name="inst_890FE034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="IsAI" x="544" y="0" name="inst_7830B5A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PauseMenuController" x="704" y="32" name="inst_79BDE548" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Main" x="640" y="224" name="inst_7ED17D8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

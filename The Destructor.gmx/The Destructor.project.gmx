@@ -114,6 +114,9 @@
       <sprite>sprites\UpgradeSprite</sprite>
     </sprites>
     <sprite>sprites\PauseText</sprite>
+    <sprite>sprites\PauseBack</sprite>
+    <sprite>sprites\ContinueButton</sprite>
+    <sprite>sprites\MenuButton</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\PixelSky</background>
@@ -187,8 +190,12 @@
       <object>objects\StartGameButton</object>
       <object>objects\RestartButton</object>
       <object>objects\TutorialObj</object>
-      <object>objects\object42</object>
     </objects>
+    <object>objects\ContinueUIButton</object>
+    <object>objects\PauseScreen</object>
+    <object>objects\ReturnToMenuButton</object>
+    <object>objects\PauseMenuController</object>
+    <object>objects\object50</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Tutorial_timeline1</timeline>

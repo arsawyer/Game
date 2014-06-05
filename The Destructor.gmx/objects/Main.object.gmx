@@ -469,7 +469,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>380</string>
+            <string>330</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -477,7 +477,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>380+UnitCoolPercent1/2</string>
+            <string>330+UnitCoolPercent1/2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -525,7 +525,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>380</string>
+            <string>330</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -533,7 +533,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>430</string>
+            <string>380</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -643,7 +643,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>1088</string>
+            <string>1070</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -651,7 +651,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1088+UnitCoolPercent2/2</string>
+            <string>1070+UnitCoolPercent2/2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -699,7 +699,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>1088</string>
+            <string>1070</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -707,7 +707,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>1138</string>
+            <string>1120</string>
           </argument>
           <argument>
             <kind>0</kind>
