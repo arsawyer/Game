@@ -201,7 +201,7 @@
       <object>objects\SinglePlayerGameButton</object>
       <object>objects\MultiplayerStartButton</object>
     </objects>
-    <object>objects\object52</object>
+    <object>objects\CreditText</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Tutorial_timeline1</timeline>
