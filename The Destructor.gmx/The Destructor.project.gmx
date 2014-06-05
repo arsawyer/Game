@@ -112,11 +112,13 @@
       <sprite>sprites\StartGameButton1</sprite>
       <sprite>sprites\RestartButtonSprite</sprite>
       <sprite>sprites\UpgradeSprite</sprite>
+      <sprite>sprites\PauseText</sprite>
+      <sprite>sprites\PauseBack</sprite>
+      <sprite>sprites\ContinueButton</sprite>
+      <sprite>sprites\MenuButton</sprite>
     </sprites>
-    <sprite>sprites\PauseText</sprite>
-    <sprite>sprites\PauseBack</sprite>
-    <sprite>sprites\ContinueButton</sprite>
-    <sprite>sprites\MenuButton</sprite>
+    <sprite>sprites\SinglePlayerButton</sprite>
+    <sprite>sprites\MultiplayerButton</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\PixelSky</background>
@@ -153,6 +155,7 @@
       <object>objects\LichRangedR</object>
       <object>objects\LichRangedL</object>
       <object>objects\IsAI</object>
+      <object>objects\AIController</object>
     </objects>
     <objects name="UI">
       <object>objects\Player1_UI</object>
@@ -187,15 +190,15 @@
       <object>objects\Enemy_Base</object>
       <object>objects\VictoryPageObj</object>
       <object>objects\DefeatScreenObj</object>
-      <object>objects\StartGameButton</object>
       <object>objects\RestartButton</object>
       <object>objects\TutorialObj</object>
+      <object>objects\ContinueUIButton</object>
+      <object>objects\PauseScreen</object>
+      <object>objects\ReturnToMenuButton</object>
+      <object>objects\PauseMenuController</object>
+      <object>objects\SinglePlayerGameButton</object>
+      <object>objects\MultiplayerStartButton</object>
     </objects>
-    <object>objects\ContinueUIButton</object>
-    <object>objects\PauseScreen</object>
-    <object>objects\ReturnToMenuButton</object>
-    <object>objects\PauseMenuController</object>
-    <object>objects\object50</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Tutorial_timeline1</timeline>
@@ -204,6 +207,7 @@
   <rooms name="rooms">
     <room>rooms\StartScreen</room>
     <room>rooms\Level_1</room>
+    <room>rooms\Level_1_Multi</room>
     <room>rooms\Level_2</room>
     <room>rooms\VictoryScreen</room>
     <room>rooms\DefeatedRoom</room>

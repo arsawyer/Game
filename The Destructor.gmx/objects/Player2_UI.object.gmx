@@ -122,7 +122,7 @@ RandomNum4 = floor(random(15));
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>Main.P2IsAI</string>
+            <string>AIController.P2IsAI</string>
           </argument>
           <argument>
             <kind>0</kind>
